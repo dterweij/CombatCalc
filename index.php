@@ -5,6 +5,13 @@
  * Date: 2/18/20
  * Time: 9:08 PM
  */
+
+ if (isset($_GET["p"])) {
+		$page = $_GET["p"]; 
+ 	} else {
+	 	$page = 1;
+ }
+ 
 ?> 
 <!DOCTYPE html>
 <html>

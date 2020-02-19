@@ -3,25 +3,25 @@
   <ul class="navbar-nav">
 
     <li class="nav-item active">
-      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="index.php?p=1">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">NPC</a>
+      <a class="nav-link" href="index.php?p=2">NPC</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Solo Hero attacks</a>
+      <a class="nav-link" href="index.php?p=3">Solo Hero attacks</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Invadors</a>
+      <a class="nav-link" href="index.php?p=4">Invadors</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Time Boosts</a>
+      <a class="nav-link" href="index.php?p=5">Time Boosts</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Rocket Fuel</a>
+      <a class="nav-link" href="index.php?p=6">Rocket Fuel</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Combats</a>
+      <a class="nav-link" href="index.php?p=7">Combats</a>
     </li>
 
 
@@ -31,10 +31,10 @@
         Your Settings
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Buildings</a>
-        <a class="dropdown-item" href="#">Research</a>
-        <a class="dropdown-item" href="#">Hero</a>
-        <a class="dropdown-item" href="#">Others</a>
+        <a class="dropdown-item" href="index.php?p=8">Buildings</a>
+        <a class="dropdown-item" href="index.php?p=9">Research</a>
+        <a class="dropdown-item" href="index.php?p=10">Hero</a>
+        <a class="dropdown-item" href="index.php?p=11">Others</a>
       </div>
     </li>    
   </ul>
