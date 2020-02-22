@@ -18,17 +18,17 @@ input[type="button"], input[type="submit"], input[type="text"] {
 	-webkit-appearance: none;
 }
 h1, h2, h3, h4, h5, h6 {
-	margin: 0px;
+	margin: 0;
 }
 p {
-	margin: 0px;
+	margin: 0;
 }
 ul {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 label {
-	margin: 0px;
+	margin: 0;
 }
 .space {
 	margin-right: 3px;
@@ -43,11 +43,11 @@ img {
 	border-radius: 5px;
 }
 table {
-	border-spacing: 0px;
+	border-spacing: 0;
 	border-collapse: separate;
 }
 td {
-	padding: 0px;
+	padding: 0;
 }
 .ar {
 	text-align: right;
@@ -59,8 +59,8 @@ td {
 	width: 50%;
 }
 html, body {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	height: 100%;
 }
 #container {
@@ -80,8 +80,8 @@ html, body {
 	height: 80px;
 }
 #body {
-		margin: 0px;
-	padding: 0px;
+		margin: 0;
+	padding: 0;
 	background: #FFF; 
 	color: #000;
 }

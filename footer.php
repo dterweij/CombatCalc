@@ -1,7 +1,12 @@
 <?php
 // footer
-?>
+if (isGit()) {
+	$devel = "-dev" ;	
+} else {
+	$devel = "" ;	
+}
 
+?>
 <div class="text-right text-justify">
-<h5>By Terminers & INDeeD0</h5>
+<h6>Version <?php echo pVersion() . $devel; ?> By Terminers (GUI) & INDeeD0 (Math)</h6>
 </div>

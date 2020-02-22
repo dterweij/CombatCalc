@@ -6,6 +6,10 @@ include 'config.php';
 include 'navigation/menu.php';
 $pageload = 'pages/page.'. $page. '.php';
 
+checkDatabase('gamedata');
+checkDatabase('playerdata');
+
+
 if (file_exists($pageload)) {
 		include $pageload;
 	} else {

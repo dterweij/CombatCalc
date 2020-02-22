@@ -1,6 +1,9 @@
 <?php
 // page 2 - NPC
 
+
+// ToDo: Convert the selections database driven
+
 echo '<div class="container-fluid">';
 echo '<h1>NPC</h1>';
 echo '<p>Here you can see how many troops you minimal need for killing a NPC.</p>';
@@ -52,7 +55,7 @@ echo '<div class="border p-2" style="background: #fff;">';
 echo '  <div class="container">';
 echo '    <h6>Army selections</h6>';
 ?>
-<form action="_self">
+<form>
   <div class="row">
     <div class="col">
 <label for="T1">Select T1 Army</label>
