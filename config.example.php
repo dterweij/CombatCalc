@@ -23,6 +23,10 @@ $dbname = 'CombatCalc'; // database to use (defaults to CombatCalc)
 // for example a new type of NPC or research item or new levels and so on
 $editdata = 1; // 1 = yes , 0 = no
 
+// Make userdata unreadable when stored in database
+// use something difficult and long
+$secret = "jjHHyyH6655GgggHH6^7766HGHD33&";
+
 // ------------- do not edit below this line
 
 // init database

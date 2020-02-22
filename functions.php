@@ -62,3 +62,37 @@ function checkDatabase($tablename)
     }
 
 }
+
+/**
+ * @param $tablename
+ */
+function showQueryresult($result)
+{
+        echo '<div class="alert alert-info alert-dismissible">';
+        echo '<button type="button" class="close" data-dismiss="alert">&times;</button>';
+        echo '<strong>Info</strong> ' . $result;
+        echo '</div>';
+}
+
+
+function secureData($action,$string)
+{
+global $secret;
+
+
+ $output = false;
+        $encrypt_method = "AES-256-CBC";
+        $secret_key = $secret;
+        $secret_iv = '1234567891011121';
+        // hash
+        $key = hash('sha256', $secret_key);    
+        // iv - encrypt method AES-256-CBC expects 16 bytes 
+        $iv = substr(hash('sha256', $secret_iv), 0, 16);
+        if ( $action == 'encode' ) {
+            $output = openssl_encrypt($string, $encrypt_method, $key, 0, $iv);
+            $output = base64_encode($output);
+        } else if( $action == 'decode' ) {
+            $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv);
+        }
+        return $output;
+}
