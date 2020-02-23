@@ -63,12 +63,18 @@ function checkDatabase($tablename)
 
 }
 
+function getBuildings() {
+	global $db;
+	$rows = $db->query('SELECT * FROM buildingdata');
+	return $rows->numRows();
+}
+
 /**
  * @param $tablename
  */
-function showQueryresult($result)
+function showDialog($result)
 {
-        echo '<div class="alert alert-info alert-dismissible">';
+        echo '<br><div class="alert alert-success alert-dismissible">';
         echo '<button type="button" class="close" data-dismiss="alert">&times;</button>';
         echo '<strong>Info</strong> ' . $result;
         echo '</div>';

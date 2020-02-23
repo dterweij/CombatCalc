@@ -18,7 +18,7 @@
       <a class="nav-link" href="index.php?p=3">Solo Hero attacks</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="index.php?p=4">Invadors</a>
+      <a class="nav-link" href="index.php?p=4">Invaders</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="index.php?p=5">Time Boosts</a>
